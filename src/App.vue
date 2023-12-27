@@ -22,7 +22,7 @@ import PortfolioSection from "@/sections/PortfolioSection";
 import LanguageSection from "@/sections/LanguageSection";
 import AppLoader from "@/sections/AppLoader";
 import { SpeedInsights } from "@vercel/speed-insights/vue";
-import { Analytics } from "@vercel/analytics/vue";
+import { Analytics } from "@vercel/analytics/react";
 import { db } from "@/db/db.js";
 
 export default {
