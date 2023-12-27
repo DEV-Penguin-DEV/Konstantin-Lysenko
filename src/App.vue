@@ -1,4 +1,5 @@
 <template>
+  <SpeedInsights />
   <MainHeader :DB="DB.menu.content" />
   <main class="main-content">
     <FirstScreen :DB="DB.first_screen.content" />
@@ -19,6 +20,7 @@ import ExperienceSection from "@/sections/ExperienceSection";
 import PortfolioSection from "@/sections/PortfolioSection";
 import LanguageSection from "@/sections/LanguageSection";
 import AppLoader from "@/sections/AppLoader";
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 import { db } from "@/db/db.js";
 
 export default {
@@ -30,6 +32,7 @@ export default {
     PortfolioSection,
     LanguageSection,
     AppLoader,
+    SpeedInsights,
   },
   data() {
     return {
