@@ -3,9 +3,9 @@
   <MainHeader :DB="DB.menu.content" />
   <main class="main-content">
     <FirstScreen :DB="DB.first_screen.content" />
-    <SkillsSection :DB="DB.skills.content" />
     <ExperienceSection :DB="DB.experience.content" />
     <PortfolioSection :DB="DB.portfolio.content" />
+    <SkillsSection :DB="DB.skills.content" />
     <LanguageSection :DB="DB.languages.content" />
   </main>
 
