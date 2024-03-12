@@ -119,6 +119,39 @@ const all_technologies = {
     img: "toggl-track-icon.svg",
     alt: "Toggl Track.",
   },
+
+  tailwind: {
+    img: "tailwind-icon.svg",
+    alt: "tailwind.",
+  },
+  appwrite: {
+    img: "appwrite-icon.svg",
+    alt: "appwrite.",
+  },
+  nest_js: {
+    img: "nest-js-icon.svg",
+    alt: "Nest JS.",
+  },
+  shadcn: {
+    img: "shadcn-icon.svg",
+    alt: "Shadcn.",
+  },
+  mongodb: {
+    img: "mongodb-icon.svg",
+    alt: "MongoDB.",
+  },
+  nuxt_ui: {
+    img: "nuxt-ui-icon.svg",
+    alt: "Nuxt Ui.",
+  },
+  nuxt: {
+    img: "nuxt-js-icon.svg",
+    alt: "Nuxt.",
+  },
+  pinia: {
+    img: "pinia-icon.svg",
+    alt: "Pinia.",
+  },
 };
 
 const PROJECT_TAGS = {
@@ -127,6 +160,50 @@ const PROJECT_TAGS = {
   mobile_app: "mobile app",
   design: "desing",
 };
+
+const SKILLS_DATA = [
+  all_technologies.html,
+  all_technologies.css,
+  all_technologies.less,
+  all_technologies.sass,
+  all_technologies.js,
+  all_technologies.spa,
+  all_technologies.jquery,
+  all_technologies.boostrap,
+
+  all_technologies.react,
+  all_technologies.vue,
+  all_technologies.nuxt,
+  all_technologies.nuxt_ui,
+  all_technologies.pinia,
+  all_technologies.shadcn,
+  all_technologies.tailwind,
+  all_technologies.ts,
+
+  all_technologies.docker,
+  all_technologies.php,
+  all_technologies.appwrite,
+  all_technologies.nest_js,
+  all_technologies.mongodb,
+  all_technologies.mysql,
+  all_technologies.postgresql,
+  all_technologies.node,
+  all_technologies.python,
+
+  all_technologies.wp,
+  all_technologies.gulp,
+  all_technologies.webpack,
+  all_technologies.git,
+  all_technologies.flutter_flow,
+  all_technologies.tilda,
+  all_technologies.bitrix24api,
+  all_technologies.basecamp,
+  all_technologies.toggl_track,
+  all_technologies.ps,
+  all_technologies.ai,
+  all_technologies.pr,
+  all_technologies.figma,
+];
 
 export const db = {
   ru: {
@@ -205,40 +282,7 @@ export const db = {
     skills: {
       content: {
         title: "Навыки",
-        data: [
-          all_technologies.html,
-          all_technologies.css,
-          all_technologies.less,
-          all_technologies.sass,
-          all_technologies.js,
-          all_technologies.ts,
-          all_technologies.react,
-          all_technologies.vue,
-
-          all_technologies.spa,
-          all_technologies.gulp,
-          all_technologies.webpack,
-          all_technologies.node,
-          all_technologies.wp,
-          all_technologies.python,
-          all_technologies.docker,
-          all_technologies.php,
-
-          all_technologies.jquery,
-          all_technologies.git,
-          all_technologies.boostrap,
-          all_technologies.ps,
-          all_technologies.ai,
-          all_technologies.pr,
-          all_technologies.figma,
-          all_technologies.flutter_flow,
-          all_technologies.tilda,
-          all_technologies.bitrix24api,
-          all_technologies.mysql,
-          all_technologies.postgresql,
-          all_technologies.basecamp,
-          all_technologies.toggl_track,
-        ],
+        data: SKILLS_DATA,
       },
     },
     experience: {
@@ -307,6 +351,48 @@ export const db = {
 
         projects: [
           {
+            project_photo: "iat.jpg",
+            project_title:
+              "Оптимизация и внесение крупных изменений на сайт автодилера IAT",
+            project_time: "525 часов",
+            technology_stack: [
+              all_technologies.html,
+              all_technologies.sass,
+              all_technologies.js,
+              all_technologies.vue,
+              all_technologies.nuxt,
+              all_technologies.tailwind,
+              all_technologies.webpack,
+              all_technologies.wp,
+              all_technologies.php,
+              all_technologies.jquery,
+              all_technologies.git,
+              all_technologies.figma,
+              all_technologies.toggl_track,
+            ],
+            link: "https://iat.ru",
+            tag: PROJECT_TAGS.site,
+          },
+          {
+            project_photo: "necoline.jpg",
+            project_title:
+              "Создания сайта с нуля в команде как Старший Разработчик включая всю кастомную анимацию и посадку на wordpress",
+            project_time: "370 часов",
+            technology_stack: [
+              all_technologies.html,
+              all_technologies.sass,
+              all_technologies.js,
+              all_technologies.webpack,
+              all_technologies.wp,
+              all_technologies.php,
+              all_technologies.git,
+              all_technologies.figma,
+              all_technologies.toggl_track,
+            ],
+            link: "https://necoline.net/",
+            tag: PROJECT_TAGS.site,
+          },
+          {
             project_photo: "ione.jpg",
             project_title: "Оптимизация и редизайн сайта WEB студии i1-web",
             project_time: "60-70 часов",
@@ -322,26 +408,6 @@ export const db = {
               all_technologies.figma,
             ],
             link: "https://i1-web.ru",
-            tag: PROJECT_TAGS.site,
-          },
-          {
-            project_photo: "iat.jpg",
-            project_title:
-              "Оптимизация и внесение крупных изменений на сайт автодилера IAT",
-            project_time: "456 часов",
-            technology_stack: [
-              all_technologies.html,
-              all_technologies.sass,
-              all_technologies.js,
-              all_technologies.webpack,
-              all_technologies.wp,
-              all_technologies.php,
-              all_technologies.jquery,
-              all_technologies.git,
-              all_technologies.figma,
-              all_technologies.toggl_track,
-            ],
-            link: "https://iat.ru",
             tag: PROJECT_TAGS.site,
           },
           {
@@ -399,7 +465,7 @@ export const db = {
             project_photo: "mk-elite.jpg",
             project_title:
               "Code review и ведение данного проекта в роли Старшего разработчика",
-            project_time: "10 часов",
+            project_time: "88 часов",
             technology_stack: [
               all_technologies.html,
               all_technologies.sass,
@@ -609,41 +675,7 @@ export const db = {
     skills: {
       content: {
         title: "Навички",
-        data: [
-          all_technologies.html,
-          all_technologies.css,
-          all_technologies.less,
-          all_technologies.sass,
-          all_technologies.js,
-          all_technologies.ts,
-          all_technologies.react,
-          all_technologies.vue,
-
-          all_technologies.spa,
-          all_technologies.gulp,
-          all_technologies.webpack,
-          all_technologies.node,
-          all_technologies.wp,
-          all_technologies.python,
-          all_technologies.docker,
-          all_technologies.php,
-
-          all_technologies.jquery,
-          all_technologies.git,
-          all_technologies.boostrap,
-          all_technologies.ps,
-          all_technologies.ai,
-          all_technologies.pr,
-          all_technologies.figma,
-          all_technologies.flutter_flow,
-
-          all_technologies.tilda,
-          all_technologies.bitrix24api,
-          all_technologies.mysql,
-          all_technologies.postgresql,
-          all_technologies.basecamp,
-          all_technologies.toggl_track,
-        ],
+        data: SKILLS_DATA,
       },
     },
     experience: {
@@ -712,6 +744,25 @@ export const db = {
 
         projects: [
           {
+            project_photo: "necoline.jpg",
+            project_title:
+              "Створення сайту з нуля в команді як Старший Розробник, включаючи всю кастомну анімацію та посадку на wordpress",
+            project_time: "370 годин",
+            technology_stack: [
+              all_technologies.html,
+              all_technologies.sass,
+              all_technologies.js,
+              all_technologies.webpack,
+              all_technologies.wp,
+              all_technologies.php,
+              all_technologies.git,
+              all_technologies.figma,
+              all_technologies.toggl_track,
+            ],
+            link: "https://necoline.net/",
+            tag: PROJECT_TAGS.site,
+          },
+          {
             project_photo: "marula.jpg",
             project_title:
               "Оптимізація, внесення великих змін у front частину та написання backend для обробки заявок для мережі готелів",
@@ -768,11 +819,14 @@ export const db = {
             project_photo: "iat.jpg",
             project_title:
               "Оптимізація та внесення великих змін на сайт автодилера IAT",
-            project_time: "456 годин",
+            project_time: "525 годин",
             technology_stack: [
               all_technologies.html,
               all_technologies.sass,
               all_technologies.js,
+              all_technologies.vue,
+              all_technologies.nuxt,
+              all_technologies.tailwind,
               all_technologies.webpack,
               all_technologies.wp,
               all_technologies.php,
@@ -804,7 +858,7 @@ export const db = {
             project_photo: "mk-elite.jpg",
             project_title:
               "Code review та ведення даного проекту в ролі Старшого розробника",
-            project_time: "10 годин",
+            project_time: "88 годин",
             technology_stack: [
               all_technologies.html,
               all_technologies.sass,
@@ -1014,41 +1068,7 @@ export const db = {
     skills: {
       content: {
         title: "Skills",
-        data: [
-          all_technologies.html,
-          all_technologies.css,
-          all_technologies.less,
-          all_technologies.sass,
-          all_technologies.js,
-          all_technologies.ts,
-          all_technologies.react,
-          all_technologies.vue,
-
-          all_technologies.spa,
-          all_technologies.gulp,
-          all_technologies.webpack,
-          all_technologies.node,
-          all_technologies.wp,
-          all_technologies.python,
-          all_technologies.docker,
-          all_technologies.php,
-
-          all_technologies.jquery,
-          all_technologies.git,
-          all_technologies.boostrap,
-          all_technologies.ps,
-          all_technologies.ai,
-          all_technologies.pr,
-          all_technologies.figma,
-          all_technologies.flutter_flow,
-          all_technologies.tilda,
-
-          all_technologies.bitrix24api,
-          all_technologies.mysql,
-          all_technologies.postgresql,
-          all_technologies.basecamp,
-          all_technologies.toggl_track,
-        ],
+        data: SKILLS_DATA,
       },
     },
     experience: {
@@ -1117,6 +1137,25 @@ export const db = {
 
         projects: [
           {
+            project_photo: "necoline-en.jpg",
+            project_title:
+              "Creating a website from scratch in a team as a Senior Developer including all custom animation and landing on WordPress",
+            project_time: "370 hours",
+            technology_stack: [
+              all_technologies.html,
+              all_technologies.sass,
+              all_technologies.js,
+              all_technologies.webpack,
+              all_technologies.wp,
+              all_technologies.php,
+              all_technologies.git,
+              all_technologies.figma,
+              all_technologies.toggl_track,
+            ],
+            link: "https://necoline.net/en/home/",
+            tag: PROJECT_TAGS.site,
+          },
+          {
             project_photo: "marula.jpg",
             project_title:
               "Optimization, making major changes to the front part and writing a backend for processing applications for a hotel",
@@ -1174,11 +1213,14 @@ export const db = {
             project_photo: "iat.jpg",
             project_title:
               "Optimization and major changes to the IAT car dealer website",
-            project_time: "456 hours",
+            project_time: "525 hours",
             technology_stack: [
               all_technologies.html,
               all_technologies.sass,
               all_technologies.js,
+              all_technologies.vue,
+              all_technologies.nuxt,
+              all_technologies.tailwind,
               all_technologies.webpack,
               all_technologies.wp,
               all_technologies.php,
@@ -1210,7 +1252,7 @@ export const db = {
             project_photo: "mk-elite.jpg",
             project_title:
               "Code review and leading this project as a Senior Developer",
-            project_time: "10 hours",
+            project_time: "88 hours",
             technology_stack: [
               all_technologies.html,
               all_technologies.sass,
@@ -1420,41 +1462,7 @@ export const db = {
     skills: {
       content: {
         title: "Fertigkeiten",
-        data: [
-          all_technologies.html,
-          all_technologies.css,
-          all_technologies.less,
-          all_technologies.sass,
-          all_technologies.js,
-          all_technologies.ts,
-          all_technologies.react,
-          all_technologies.vue,
-
-          all_technologies.spa,
-          all_technologies.gulp,
-          all_technologies.webpack,
-          all_technologies.node,
-          all_technologies.wp,
-          all_technologies.python,
-          all_technologies.docker,
-          all_technologies.php,
-
-          all_technologies.jquery,
-          all_technologies.git,
-          all_technologies.boostrap,
-          all_technologies.ps,
-          all_technologies.ai,
-          all_technologies.pr,
-          all_technologies.figma,
-          all_technologies.flutter_flow,
-
-          all_technologies.tilda,
-          all_technologies.bitrix24api,
-          all_technologies.mysql,
-          all_technologies.postgresql,
-          all_technologies.basecamp,
-          all_technologies.toggl_track,
-        ],
+        data: SKILLS_DATA,
       },
     },
     experience: {
@@ -1522,6 +1530,25 @@ export const db = {
 
         projects: [
           {
+            project_photo: "necoline-en.jpg",
+            project_title:
+              "Als Senior Developer im Team eine Website von Grund auf erstellen, einschließlich aller benutzerdefinierten Animationen und Landung auf WordPress",
+            project_time: "370 Stunden",
+            technology_stack: [
+              all_technologies.html,
+              all_technologies.sass,
+              all_technologies.js,
+              all_technologies.webpack,
+              all_technologies.wp,
+              all_technologies.php,
+              all_technologies.git,
+              all_technologies.figma,
+              all_technologies.toggl_track,
+            ],
+            link: "https://necoline.net/en/home/",
+            tag: PROJECT_TAGS.site,
+          },
+          {
             project_photo: "marula.jpg",
             project_title:
               "Optimierung, Durchführung großer Änderungen im Frontteil und Schreiben eines Backends zur Bearbeitung von Anträgen für eine Hotelkette",
@@ -1579,11 +1606,14 @@ export const db = {
             project_photo: "iat.jpg",
             project_title:
               "Optimierung und Einführung wesentlicher Änderungen auf der Website des IAT-Autohauses",
-            project_time: "456 Stunden",
+            project_time: "525 Stunden",
             technology_stack: [
               all_technologies.html,
               all_technologies.sass,
               all_technologies.js,
+              all_technologies.vue,
+              all_technologies.nuxt,
+              all_technologies.tailwind,
               all_technologies.webpack,
               all_technologies.wp,
               all_technologies.php,
@@ -1615,7 +1645,7 @@ export const db = {
             project_photo: "mk-elite.jpg",
             project_title:
               "Code review und leitete dieses Projekt als Senior Developer",
-            project_time: "10 Stunden",
+            project_time: "88 Stunden",
             technology_stack: [
               all_technologies.html,
               all_technologies.sass,
@@ -1825,41 +1855,7 @@ export const db = {
     skills: {
       content: {
         title: "Compétences",
-        data: [
-          all_technologies.html,
-          all_technologies.css,
-          all_technologies.less,
-          all_technologies.sass,
-          all_technologies.js,
-          all_technologies.ts,
-          all_technologies.react,
-          all_technologies.vue,
-
-          all_technologies.spa,
-          all_technologies.gulp,
-          all_technologies.webpack,
-          all_technologies.node,
-          all_technologies.wp,
-          all_technologies.python,
-          all_technologies.docker,
-          all_technologies.php,
-
-          all_technologies.jquery,
-          all_technologies.git,
-          all_technologies.boostrap,
-          all_technologies.ps,
-          all_technologies.ai,
-          all_technologies.pr,
-          all_technologies.figma,
-          all_technologies.flutter_flow,
-
-          all_technologies.tilda,
-          all_technologies.bitrix24api,
-          all_technologies.mysql,
-          all_technologies.postgresql,
-          all_technologies.basecamp,
-          all_technologies.toggl_track,
-        ],
+        data: SKILLS_DATA,
       },
     },
     experience: {
@@ -1928,6 +1924,25 @@ export const db = {
 
         projects: [
           {
+            project_photo: "necoline-en.jpg",
+            project_title:
+              "Création d'un site Web à partir de zéro dans une équipe en tant que développeur senior incluant toutes les animations personnalisées et l'atterrissage sur WordPress",
+            project_time: "370 heures",
+            technology_stack: [
+              all_technologies.html,
+              all_technologies.sass,
+              all_technologies.js,
+              all_technologies.webpack,
+              all_technologies.wp,
+              all_technologies.php,
+              all_technologies.git,
+              all_technologies.figma,
+              all_technologies.toggl_track,
+            ],
+            link: "https://necoline.net/en/home/",
+            tag: PROJECT_TAGS.site,
+          },
+          {
             project_photo: "marula.jpg",
             project_title:
               "Optimisation, modification majeure de la partie front et rédaction d'un backend de traitement des candidatures pour une chaîne hôtelière",
@@ -1984,11 +1999,14 @@ export const db = {
             project_photo: "iat.jpg",
             project_title:
               "Optimisation et introduction de changements majeurs sur le site Internet du concessionnaire automobile IAT",
-            project_time: "456 heures",
+            project_time: "525 heures",
             technology_stack: [
               all_technologies.html,
               all_technologies.sass,
               all_technologies.js,
+              all_technologies.vue,
+              all_technologies.nuxt,
+              all_technologies.tailwind,
               all_technologies.webpack,
               all_technologies.wp,
               all_technologies.php,
@@ -2020,7 +2038,7 @@ export const db = {
             project_photo: "mk-elite.jpg",
             project_title:
               "Code review et diriger ce projet en tant que Développeur Senior",
-            project_time: "10 heures",
+            project_time: "88 heures",
             technology_stack: [
               all_technologies.html,
               all_technologies.sass,
