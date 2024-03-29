@@ -152,6 +152,10 @@ const all_technologies = {
     img: "pinia-icon.svg",
     alt: "Pinia.",
   },
+  rabbitmq: {
+    img: "rabbitmq-icon.svg",
+    alt: "Rabbit MQ.",
+  },
 };
 
 const PROJECT_TAGS = {
@@ -184,6 +188,7 @@ const SKILLS_DATA = [
   all_technologies.php,
   all_technologies.appwrite,
   all_technologies.nest_js,
+  all_technologies.rabbitmq,
   all_technologies.mongodb,
   all_technologies.mysql,
   all_technologies.postgresql,
